@@ -1,0 +1,48 @@
+body {
+    background-color: #000099;
+}
+
+
+a {
+    color: black;
+    font-size: 250%;
+    display:block;
+}
+navbar {
+    display:block;
+}
+p {
+    font-size:200%;
+    color:#FF9900;
+}
+
+p2 {
+    font-size:150%;
+    color:#FF9900;
+}
+
+p3 {
+    font-size:150%;
+    color:#FF9900;
+}
+
+h1 {
+    color:#FF9900;
+    font-weight:normal;
+}
+
+li {
+    color:#FF9900;
+    font-size:150%;
+}
+
+a:hover {
+    color:yellow;
+    text-decoration:underline;
+}
+.navbar{
+    color:red;
+    display:inline-block;
+    text-decoration:none;
+}
+

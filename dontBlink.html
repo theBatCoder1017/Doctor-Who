@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+    
+    <style>
+    body{
+        background-color:black;
+    }
+        @-webkit-keyframes blink{
+    0%   {
+        transform:rotate(50deg);
+        opacity:0;
+    }
+    25%  {
+        transform:rotate(-100deg);
+        opacity:1;
+    }
+    50%  {
+        transform:scale(2);
+        transform:rotate(360deg);
+        opacity:0;
+    }
+    75% {
+        transform:scale(2);
+        opacity:1;
+    }
+    100% {
+        transform:skewX(20deg);
+        opacity:0;
+    }
+        } 
+        #blinker{
+            animation: blink 2s infinite;
+            width:1000px;
+            height:500px;
+            opacity:1;
+        }
+        .navbar{
+    color:red;
+    display:inline-block;
+    text-decoration:none;
+}
+        a:hover{
+            color:yellow;
+        }
+    </style>
+    <navbar>
+           <a href = "thedoctor.html" class = "navbar" class = "navbar">Who Is The Doctor?</a>
+           <a href = "Tardis.html" class = "navbar" class = "navbar">Home</a>
+           <a href = "villains.html" class = "navbar" class = "navbar">Weeping Angels and Cybermen</a>
+        </navbar>   
+    <h1>Don't Blink for 25 seconds!</h1>
+    <center><img src = "http://vignette2.wikia.nocookie.net/tardis/images/b/be/Series5weepingangels.jpg/revision/latest?cb=20120204130846" id ="blinker"></center>
+    </body>
+</html>
